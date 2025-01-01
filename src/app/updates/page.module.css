@@ -1,0 +1,47 @@
+
+.content :global p{
+  @apply mb-6;
+}
+
+.content :global ul {
+  @apply mb-4;
+  list-style: disc;
+  margin-left: 1.2rem;
+}
+
+.content :global ul li{
+  @apply mb-2 mt-2;
+}
+
+.content :global h1,
+.content :global h2,
+.content :global h3,
+.content :global h4,
+.content :global h5,
+.content :global h6 {
+    @apply font-semibold mt-8 mb-5 text-darkblue-700;
+    letter-spacing: -0.5px;
+}
+
+.content :global h1{
+    @apply text-4xl;
+}
+
+.content :global h2 {
+    @apply text-3xl
+}
+
+.content :global h3 {
+    @apply text-2xl
+}
+
+.content :global a{
+  text-decoration: underline;
+  color: #375DEE;
+}
+
+.content :global img{
+  border-radius: 8px;
+  outline: 1px solid #EDEFF2;
+  outline-offset: 0px
+}

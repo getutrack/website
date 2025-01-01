@@ -1,0 +1,12 @@
+.legal-content p{
+    margin-bottom: 1rem;
+}
+
+.legal-content h2{
+    color: rgb(84, 94, 137);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 2rem 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
